@@ -1,0 +1,40 @@
+# @Value
+property:
+  test:
+    name: property depth test
+
+propertyTest: test
+
+propertyTestArray: a,b,c
+
+propertyTestList: a,b,c
+
+# @ConfigurationProperties
+
+fruit:
+  fruits:
+    - name: banana
+      color: yellow
+    - name: apple
+      color: red
+    - name: water melon
+
+number:
+  numbers:
+    - name: one
+      value: 1
+    - name: two
+      value: 2
+    - name: three
+      value: 3
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        trace: false
+        web-allow-others: false
+  datasource:
+    url: jdbc:h2:mem:testdb
