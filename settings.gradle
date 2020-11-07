@@ -1,4 +1,5 @@
 rootProject.name = 'starter'
 include 'book-spring-boot-test'
 include 'spring-boot-community'
+include 'spring-boot-security'
 
