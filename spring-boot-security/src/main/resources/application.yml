@@ -1,8 +1,8 @@
 facebook:
   client:
     clientId: 2627866720863471
-    clientSecret: df8d061fc9ef3169bffd85de03747d60
-    accessTokenUri: https://graph.facebook.com/oauth/access_token
+    clientSecret: 
+    accessTokenUri: 
     userAuthorizationUri: https://www.facebook.com/dialog/oauth?display=popup
     tokenName: oauth_token
     authenticationScheme: query
@@ -13,8 +13,8 @@ facebook:
 
 google:
   client:
-    clientId: 1092920156468-vv59s8trqv82ippsns2kq133n309cs5t.apps.googleusercontent.com
-    clientSecret: IpTUgn3thOFIFAxbgNQSCyGT
+    clientId: 
+    clientSecret: 
     accessTokenUri: https://accounts.google.com/o/oauth2/token
     userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
     scope: email, profile
@@ -23,7 +23,7 @@ google:
 
 kakao:
   client:
-    clientId: e9548dca89e57dba19fb9713866cde25
+    clientId: 
     accessTokenUri: https://kauth.kakao.com/oauth2/token
     userAuthorizationUri: https://kauth.kakao.com/oauth2/authorize
   resource:
