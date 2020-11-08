@@ -1,0 +1,5 @@
+dependencies {
+    implementation 'org.springframework.spring.security.ex.security:spring-spring.security.ex.security-oauth2-spring.security.ex.client'
+    implementation 'org.springframework.spring.security.ex.security:spring-spring.security.ex.security-oauth2-jose'
+    implementation 'org.springframework.boot:spring-boot-starter-spring.security.ex.security'
+}
